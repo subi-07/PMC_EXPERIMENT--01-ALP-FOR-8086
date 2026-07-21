@@ -159,8 +159,8 @@ ret
 
 ## Output  
 
-[<img width="1917" height="1023" alt="image" src="https://github.com/user-attachments/assets/7d925dfb-80e5-41a9-bcdf-b928b7d5ea8e" />
-](https://github.com/subi-07/PMC_EXPERIMENT--01-ALP-FOR-8086.git)
+<img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/178ad348-65c7-497d-85fc-4fe9527bce83" />
+
 
 
 ## Result :
