@@ -110,7 +110,7 @@ ret
 
 ## Output  
 
-<img width="1917" height="1022" alt="image" src="https://github.com/user-attachments/assets/b5e816d7-6108-4e60-a876-bd613e0341ae" />
+<img width="1917" height="1025" alt="image" src="https://github.com/user-attachments/assets/4d638d60-a6f8-45e0-81a9-06f2fa6b0639" />
 
 
 
@@ -159,8 +159,8 @@ ret
 
 ## Output  
 
-<img width="1917" height="1023" alt="image" src="https://github.com/user-attachments/assets/7d925dfb-80e5-41a9-bcdf-b928b7d5ea8e" />
-
+[<img width="1917" height="1023" alt="image" src="https://github.com/user-attachments/assets/7d925dfb-80e5-41a9-bcdf-b928b7d5ea8e" />
+](https://github.com/subi-07/PMC_EXPERIMENT--01-ALP-FOR-8086.git)
 
 
 ## Result :
