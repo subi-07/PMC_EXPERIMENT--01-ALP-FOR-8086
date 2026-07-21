@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-## Name :
-## Roll no :
-## Date of experiment :
+## Name : SUBITHRA R
+## Roll no : 212224110050
+## Date of experiment : 21/07/2026
 
 
 
@@ -77,26 +77,95 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations (16 bit)
 
+```
+; You may customize this and other start-up templates; 
+; The location of this template is c:\emu8086\inc\0_com_template.txt
+
+org 100h
+
+
+MOV BX,0AAAAH;
+MOV AX,0AAAAH;
+ADD AX,BX;
+MOV [2000H],AX;
+
+MOV AX,1111H;
+MOV CX,1231H;
+SUB AX,CX;
+MOV [2002H],AX;
+
+MOV AX,4567H;
+MOV BX,0045H;
+MUL CX;
+MOV [2004H],AX;
+
+MOV BX,0001H;
+MOV CX,0111H;
+DIV CX;
+MOV [2006],BX;
+
+ret
+```
 
 
 ## Output  
 
+<img width="1917" height="1022" alt="image" src="https://github.com/user-attachments/assets/b5e816d7-6108-4e60-a876-bd613e0341ae" />
 
 
 
 
 ## Programs for logical  operations (16 bit)
+```
+; You may customize this and other start-up templates; 
+; The location of this template is c:\emu8086\inc\0_com_template.txt
+
+org 100h
+
+MOV BX,0AA45H;
+MOV AX,0BBBCH;
+AND AX,BX;
+MOV [2008H],AX;
+
+MOV AX,1114H;
+MOV CX,1234H;
+OR AX,CX;
+MOV [2010H],AX;  
+
+MOV BX,123DH;
+MOV AX,0111H;
+XOR AX,BX;
+MOV [2020],AX;
+
+MOV AX,0AAAH;
+NOT AX;
+MOV [2012],AX;
+
+MOV AX,0AAAAH;
+MOV BX,05555H;
+OR AX,BX;
+NOT AX;
+MOV [2014],AX;   
+
+MOV AX,0AAAH;
+MOV BX,32ACH;
+AND AX,BX;
+NOT AX;
+MOV [2016],AX;
 
 
+ret
+```
 
 ## Output  
 
+<img width="1917" height="1023" alt="image" src="https://github.com/user-attachments/assets/7d925dfb-80e5-41a9-bcdf-b928b7d5ea8e" />
 
 
 
 ## Result :
  
-
+The 8086 Assembly Language Programs (ALP) for 16-bit arithmetic operations (Addition, Subtraction, Multiplication, and Division) and logical operations (AND, OR, XOR, NOT, NOR, and NAND) were successfully executed using the EMU8086 emulator. The outputs were verified, and the corresponding results and flag status were observed successfully.
 
 
 
